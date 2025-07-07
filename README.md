@@ -2427,7 +2427,7 @@ Landing
 
 En esta sección se registra el avance del producto y las acciones colaborativas realizadas por el equipo para el Sprint 3.
 
-##### 5.2.3.1.Sprint Planning 3.
+##### 5.2.3.1. Sprint Planning 3.
 
 En esta sección se resumen los puntos clave del Sprint Planning, incluyendo los objetivos, entregables y tareas asignadas para el sprint. A continuación, se presenta un cuadro con los detalles acordados.
 
@@ -2456,14 +2456,14 @@ Durante este sprint, nuestro objetivo fue definir nuestros puntos base para real
 | Franco Huang Liu       | St4rLght05     | C         |  
 | Ramiro Guzman Chavéz   | RamiroGuzmanCh | C         |  
 
-##### 5.2.3.3.Sprint Backlog 3.
+##### 5.2.3.3. Sprint Backlog 3.
 
 Esta sección ofrece un resumen del objetivo central del sprint, resaltando las metas propuestas y las funcionalidades que se planean desarrollar. Seguidamente, se incluye una captura del tablero del sprint en la herramienta de gestión elegida, Trello, junto con su enlace público. También se presenta una tabla con las User Stories asignadas al sprint, los Work-items o tareas derivadas, y otras actividades adicionales requeridas para alcanzar los objetivos generales del sprint.
 
 Este es nuestro link de invitación a nuestro Trello:
 [https://trello.com/invite/b/68267bff8d17b7cdedc81fc0/ATTI9b222886c42338db28af15f683f5af1554589F3D/si729-20251-4328-grupo-1](https://trello.com/invite/b/68267bff8d17b7cdedc81fc0/ATTI9b222886c42338db28af15f683f5af1554589F3D/si729-20251-4328-grupo-1)
 
-  ##### 5.2.3.4.Development Evidence for Sprint Review.
+##### 5.2.3.4. Development Evidence for Sprint Review.
 
   En esta sección se explica y presenta los avances en implementación con relación a los productos de la solución según el alcance del Sprint: **Landing Page**, **Web Applications (Frontend)** y **Web Services (Backend)**.  
 La sección inicia con una introducción que resume los principales avances en la implementación.
@@ -2552,7 +2552,7 @@ Landing Page — `upc-pre-202510-1asi0729-4328-Lively/landing-page`
 | upc-pre-202510-1asi0729-4328-Lively/landing-page | feature/-recomendations | 279d15d | style.css | style.css | 25/04/2025 |
 | upc-pre-202510-1asi0729-4328-Lively/landing-page | feature/-recomendations | fa3cd8 | index.html | index.html | 25/04/2025 |
 
-##### 5.2.3.5.Execution Evidence for Sprint Review.
+##### 5.2.3.5. Execution Evidence for Sprint Review.
 
 Todas las vistas han sido desplegadas. Ver anexos para los enlaces
 
@@ -2594,20 +2594,139 @@ Enalce about the product
 
 https://upcedupe-my.sharepoint.com/personal/u202217212_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202217212%5Fupc%5Fedu%5Fpe%2FDocuments%2Fupc%2Dpre%2D202510%2D1asi0729%2D4328%2Dlively%2Dabout%2Dthe%2Dteam%2Dsprint%2D3%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E15aababf%2D8d63%2D43ea%2Daf71%2De122053f15aa&isDarkMode=true
 
-##### 5.2.3.6.Services Documentation Evidence for Sprint Review.
-En la siguiente tabla se presentan los commits realizados durante el Sprint 3. En este sprint nos enfocamos en implementar los servicios clave del backend, como la creación, actualización y consulta de datos. Además, se integraron validaciones esenciales para garantizar la integridad de los datos, se mejoró la estructura de los controladores y servicios, y se realizó la documentación técnica de endpoints y entidades. Paralelamente, se avanzó en el desarrollo del frontend. Esta documentación respalda el progreso funcional alcanzado durante el sprint y sienta las bases para las funcionalidades finales de validación y monitoreo.
+##### 5.2.3.6. Services Documentation Evidence for Sprint Review.
 
-| Repository                           | Branch   | Commit ID | Commit Message                  | Commit Message Body          | Commited on  (Date) |
-|-------------------------------------|---------|-----------|----------------------------------|------------------------------|---------------------|
-| upc-pre-202510-1asi0729-4328-Lively/Backend-AgeCare | feat/residents | 0c52088   | Add BC residents  |    | 11/06/2025        |
-| upc-pre-202510-1asi0729-4328-Lively/Frontend-AgeCare | bc/user | ba1572a | Add Resident Management v1  |    | 13/06/2025        |
-| upc-pre-202510-1asi0729-4328-Lively/Backend-AgeCare | feat/appointment | ea9fcd5 | Feat/ adding appointment querys  |    | 16/06/2025        |
-| upc-pre-202510-1asi0729-4328-Lively/Backend-AgeCare | feat/notification | 08efcbc | Feat/notification  |    | 19/06/2025        |
-| upc-pre-202510-1asi0729-4328-Lively/Backend-AgeCare | feat/payment | b6ddaef | Add files via upload  |    | 20/06/2025        |
-| upc-pre-202510-1asi0729-4328-Lively/Frontend-AgeCare | bc/notification | edf0025 | fix: app style  |    | 20/06/2025        |
-| upc-pre-202510-1asi0729-4328-Lively/Frontend-AgeCare | bc/payment | 79436e1 | Add files via upload  |    | 21/06/2025        |
-| upc-pre-202510-1asi0729-4328-Lively/Backend-AgeCare | feat/payment | 0e3cee4 | Feat/payment  |    | 23/06/2025        |
-| upc-pre-202510-1asi0729-4328-Lively/Frontend-AgeCare | bc/notification | bede5d1 | Adding: Appoinment pages, list and managment  |    | 23/06/2025        |
+En esta sección se presenta la evidencia de documentación de los servicios desarrollados durante el sprint para la aplicación **AgeCare**, los cuales están disponibles y visibles mediante Swagger.  
+Se detallan los principales endpoints implementados para cada uno de los módulos funcionales, incluyendo su método HTTP, ruta y descripción correspondiente.
+
+---
+
+### Appointments
+
+| Método | Endpoint | Description |
+|--------|----------|-------------|
+| POST   | `/api/v1/appointments` | Create a new medical appointment |
+| GET    | `/api/v1/appointments` | Get all medical appointments |
+| GET    | `/api/v1/appointments/{appointmentId}` | Get medical appointment by ID |
+| PUT    | `/api/v1/appointments/{appointmentId}` | Update a medical appointment |
+| DELETE | `/api/v1/appointments/{appointmentId}` | Delete a medical appointment |
+| GET    | `/api/v1/appointments/searchByResidentId?residentId={residentId}` | Get appointments by resident ID |
+| GET    | `/api/v1/appointments/searchByDoctorId?doctorId={doctorId}` | Get appointments by doctor ID |
+
+---
+
+### Notifications
+
+| Método | Endpoint | Description |
+|--------|----------|-------------|
+| POST   | `/api/v1/notifications` | Create a new notification |
+| POST   | `/api/v1/notifications/{id}/deliver` | Mark notification as delivered |
+| POST   | `/api/v1/notifications/{id}/archive` | Archive notification |
+| GET    | `/api/v1/notifications` | Get all notifications |
+| GET    | `/api/v1/notifications/{id}` | Get notification by ID |
+| GET    | `/api/v1/notifications/user/{userId}` | Get notifications by user ID |
+| GET    | `/api/v1/notifications/search?recipientId={id}&status={status}` | Search notifications by recipient and/or status |
+| DELETE | `/api/v1/notifications/{id}` | Delete notification by ID |
+
+---
+
+### Receipts
+
+| Método | Endpoint | Description |
+|--------|----------|-------------|
+| POST   | `/api/v1/receipts` | Create a new receipt for a resident |
+| GET    | `/api/v1/receipts` | Get all receipts |
+| GET    | `/api/v1/receipts/{residentId}` | Get receipt by resident ID |
+| PUT    | `/api/v1/receipts/{receiptId}` | Update existing receipt |
+| DELETE | `/api/v1/receipts/{receiptId}` | Delete receipt by ID |
+| GET    | `/api/v1/receipts/searchByReceiptId?receiptId={receiptId}` | Get receipt by receipt ID |
+
+---
+
+### Residents
+
+| Método | Endpoint | Description |
+|--------|----------|-------------|
+| POST   | `/api/v1/residents` | Create a new resident |
+| GET    | `/api/v1/residents` | Get all residents |
+| GET    | `/api/v1/residents/{residentId}` | Get resident by ID |
+| PUT    | `/api/v1/residents/{residentId}` | Update a resident |
+| DELETE | `/api/v1/residents/{residentId}` | Delete a resident |
+| GET    | `/api/v1/residents/searchByDni?dni={dni}` | Search resident by DNI |
+| GET    | `/api/v1/residents/{residentId}/details` | Get full details of the resident |
+
+---
+
+### Medications
+
+| Método | Endpoint | Description |
+|--------|----------|-------------|
+| GET    | `/api/v1/residents/{residentId}/medications` | List medications of a resident |
+| POST   | `/api/v1/residents/{residentId}/medications` | Add a medication for a resident |
+| DELETE | `/api/v1/residents/{residentId}/medications/{medicationId}` | Remove a medication from a resident |
+
+---
+
+### Medical Histories
+
+| Método | Endpoint | Description |
+|--------|----------|-------------|
+| GET    | `/api/v1/residents/{residentId}/medical-histories` | List medical histories of a resident |
+| POST   | `/api/v1/residents/{residentId}/medical-histories` | Add a medical history |
+| DELETE | `/api/v1/residents/{residentId}/medical-histories/{medicalHistoryId}` | Delete a medical history by ID |
+
+---
+
+### Mental Health Records
+
+| Método | Endpoint | Description |
+|--------|----------|-------------|
+| GET    | `/api/v1/residents/{residentId}/mental-health-records` | List mental health records of a resident |
+| POST   | `/api/v1/residents/{residentId}/mental-health-records` | Add a mental health record |
+| DELETE | `/api/v1/residents/{residentId}/mental-health-records/{mentalHealthRecordId}` | Delete a mental health record by ID |
+
+---
+
+### Doctors
+
+| Método | Endpoint | Description |
+|--------|----------|-------------|
+| GET    | `/api/v1/doctors` | Get all doctors |
+| GET    | `/api/v1/doctors/{id}` | Get doctor by ID |
+| POST   | `/api/v1/doctors` | Create a new doctor |
+| PUT    | `/api/v1/doctors/{id}` | Update existing doctor |
+| DELETE | `/api/v1/doctors/{id}` | Delete doctor by ID |
+| POST   | `/api/v1/doctors/{id}/schedule` | Assign schedule to a doctor |
+| PUT    | `/api/v1/doctors/{id}/schedules/{scheduleId}` | Update doctor schedule |
+| DELETE | `/api/v1/doctors/{id}/schedules/{scheduleId}` | Delete doctor schedule |
+| POST   | `/api/v1/doctors/{id}/contactInfo/address` | Add address to doctor |
+| PUT    | `/api/v1/doctors/{id}/contactInfo/address` | Update doctor address |
+
+---
+
+### Family Members
+
+| Método | Endpoint | Description |
+|--------|----------|-------------|
+| GET    | `/api/v1/family-members` | Get all family members |
+| GET    | `/api/v1/family-members/{id}` | Get family member by ID |
+| POST   | `/api/v1/family-members` | Create a new family member |
+| PUT    | `/api/v1/family-members/{id}` | Update existing family member |
+| DELETE | `/api/v1/family-members/{id}` | Delete family member by ID |
+
+---
+
+### Users
+
+| Método | Endpoint | Description |
+|--------|----------|-------------|
+| GET    | `/api/v1/users` | Get all users |
+| GET    | `/api/v1/users/{id}` | Get user by ID |
+| POST   | `/api/v1/users` | Create a new user |
+| PUT    | `/api/v1/users/{id}` | Update existing user |
+| DELETE | `/api/v1/users/{id}` | Delete user by ID |
+
+---
 
 
 ##### 5.2.3.7.Software Deployment Evidence for Sprint Review.
