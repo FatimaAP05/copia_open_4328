@@ -911,6 +911,7 @@ Epic sobre contenido y funcionalidades del sitio web informativo orientado a vis
 | US-17 | Solicitar información desde la web | Como visitante, quiero llenar un formulario de contacto para recibir más información personalizada sobre los servicios. | "Given el visitante completa el formulario. When envía los datos. Then el sistema envía un correo al área correspondiente y muestra confirmación." | EP-003 |
 | US-18 | Ver testimonios y casos de éxito | Como visitante, quiero leer experiencias reales para sentir confianza en el servicio. | "Given el visitante está en la sección de testimonios. When explora las historias. Then puede ver comentarios y casos de familiares satisfechos." | EP-003 |
 | US-19 | Descargar folleto informativo | Como visitante, quiero descargar un folleto para compartir la información del servicio con otros miembros de mi familia. | "Given el visitante está en la landing. When hace clic en “Descargar folleto”. Then el sistema genera un PDF con resumen de AgeCareDB." | EP-003 |
+| US-39    | Mostrar desarrolladores del equipo | Como visitante, quiero ver al equipo de desarrollo del sistema para conocer quiénes están detrás del producto.                                  | Dado que soy un visitante, cuando ingreso a la sección "Sobre Nosotros", entonces puedo ver una lista con nombres y roles del equipo. | E003                      |
 
 Epic: RESTful API
 
@@ -927,6 +928,7 @@ Epic que agrupa requerimientos técnicos y endpoints de acceso y gestión de dat
 | US-22 | Obtener historial de actividades (API) | Como developer, quiero obtener el historial de actividades de un residente para mostrarlo en su perfil. | "Given se realiza un GET a `/api/actividades/{residenteId}`. When el residente tiene registros. Then se devuelve un array con las actividades en formato JSON." | EP-004 |
 | US-23 | Eliminar registro médico (API) | Como developer, quiero eliminar un registro médico incorrecto desde el API. | "Given se realiza un DELETE a `/api/registros/{id}`. When el registro existe. Then se elimina de la base de datos y retorna código 204." | EP-004 |
 US-24 | Consultar métricas de salud (API) | Como developer, quiero obtener métricas resumidas del estado de un residente para visualizaciones en el dashboard. | "Given se hace un GET a `/api/metricas/{residenteId}`. When los datos existen. Then el sistema responde con promedio, tendencias y alertas clave. And el código de respuesta es 200."" | EP-004 |
+| US-41    | Gestionar notificaciones del sistema | Como administrador, quiero crear y eliminar notificaciones para informar al personal o familiares.                                              | Dado que soy administrador, cuando accedo al panel de notificaciones, entonces puedo crear nuevas notificaciones o eliminarlas.   | E004                      |
 
 Epic: Reportes y Analítica
 
@@ -942,6 +944,7 @@ Epic que agrupa funcionalidades para la visualización de tendencias y generaci�
 | US-30 | Recibir recordatorios para revisar informes | Como familiar, quiero recibir recordatorios semanales para revisar los reportes y estar al tanto del estado del residente. | "Given es fin de semana. When el sistema detecta que hay un nuevo reporte. Then se envía un recordatorio vía correo o notificación push configurada." | EP-005 |
 | US-38 | Generar reporte clínico por paciente	Como médico, quiero generar un reporte clínico por paciente para registrar diagnósticos, tratamientos y observaciones médicas. | "Given el médico accede al perfil del residente. When completa el formulario de reporte clínico. Then el sistema guarda y vincula el reporte con fecha y autor." | EP-005 |
 | US-39 | Gestionar reporte clínico del residente | Como médico, quiero poder crear, editar o eliminar un reporte clínico desde la interfaz para mantener la información médica actualizada. | "Given el médico está autenticado. When accede a un reporte clínico. Then puede editar su contenido o eliminarlo si es necesario." | EP-005 |
+| US-42    | Gestionar pagos de residentes      | Como responsable de finanzas, quiero registrar y consultar pagos de los residentes.                                                             | Dado que soy responsable de finanzas, cuando accedo al módulo de pagos, entonces puedo registrar un nuevo pago y consultar historial. | E005                      |
 
 Epic: Gestión de Personal Médico
 
@@ -955,6 +958,7 @@ Epic que agrupa funciones como registrar, editar o eliminar perfiles de doctores
 | US-32 | Editar doctor existente | Como administrador, quiero editar la información de un doctor ya registrado para mantener sus datos actualizados. | "Given el administrador está autenticado. When accede al perfil del doctor. Then puede modificar campos como especialidad, correo o teléfono y guardar los cambios." | EP-006 |
 | US-33 | Registrar enfermero | Como administrador, quiero registrar un nuevo enfermero para gestionar sus funciones dentro del sistema. | "Given el administrador accede al sistema. When completa los datos del enfermero. Then el sistema guarda la información y lo agrega al personal activo." | EP-006 |
 | US-34 | Registrar nuevo paciente (interfaz) | Como encargado, quiero registrar un nuevo paciente desde la interfaz para que quede almacenado en el sistema y se le pueda hacer seguimiento. | "Given el encargado está autenticado. When llena el formulario con los datos del paciente. Then el sistema valida y guarda los datos correctamente." | EP-006 |
+| US-43    | Gestionar usuarios del sistema     | Como administrador, quiero gestionar (crear, consultar, eliminar) usuarios del sistema.                                                         | Dado que soy administrador, cuando accedo al módulo de usuarios, entonces puedo crear, consultar y eliminar usuarios.               | E006                      |
 
 Epic: Gestión de Medicamentos
 
@@ -966,6 +970,7 @@ Epic que agrupa funcionalidades relacionadas con registro, seguimiento y control
 |---------------|---------|-------------|--------------------------|---------------------------|
 | US-35 | Registrar medicina | Como encargado, quiero registrar una nueva medicina para llevar control del tratamiento de los residentes. | "Given el encargado está autenticado. When llena el formulario de medicina. Then el sistema guarda el nombre, dosis, fecha de vencimiento y observaciones." | EP-007 | 
 | US-36 | Eliminar medicina caducada | Como encargado, quiero eliminar medicinas vencidas del sistema para mantener el stock actualizado y evitar errores de medicación. | "Given hay medicinas caducadas. When el encargado selecciona una y hace clic en eliminar. Then el sistema la retira del listado y muestra confirmación." | EP-007 | 
+| US-40    | Gestionar turnos de cita médica    | Como cuidador, quiero registrar, modificar o eliminar turnos de cita médica para los residentes.                                                | Dado que soy cuidador, cuando accedo a la sección de citas, entonces puedo crear, modificar o eliminar un turno de cita médica.   | E007                      |
 
 
 ### 3.3. Impact Mapping
