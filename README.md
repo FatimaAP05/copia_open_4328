@@ -2554,7 +2554,7 @@ Landing Page — `upc-pre-202510-1asi0729-4328-Lively/landing-page`
 
 ##### 5.2.3.5. Execution Evidence for Sprint Review.
 
-Todas las vistas han sido desplegadas. Ver anexos para los enlaces
+Se añadieron nuevas vistas en nuestra **Landing Page**, las cuales corresponden a las vistas del frontend. Al hacer clic en **"Explore More"**, el usuario es redirigido al frontend, donde encontrará las secciones de **About The Team** y **About The Product**.
 
 ![image](https://github.com/user-attachments/assets/3bdcc3d9-c4e2-4422-a5d7-927d23306660)
 ![image](https://github.com/user-attachments/assets/c87504e7-5839-4e42-b31c-29310cf1f46b)
@@ -2567,21 +2567,35 @@ Todas las vistas han sido desplegadas. Ver anexos para los enlaces
 ![image](https://github.com/user-attachments/assets/10e4e949-39f6-4a11-afcf-4df9f2ed572c)
 ![image](https://github.com/user-attachments/assets/01121f96-8d2f-4a0b-b7d4-ab11cd1cc49f)
 
+En el **frontend**, hemos ajustado las vistas para esta nueva versión:
+
+Vista de **Appointments**: Esta vista permite registrar una cita (appointment) mediante un formulario. Una vez registrada, la cita aparece en una lista, donde el estado de la cita puede ser pendiente o completada.
+
 ![image](https://github.com/user-attachments/assets/6fef2698-5d68-4d32-b3e0-111a11dd8e9f)
 ![image](https://github.com/user-attachments/assets/474bf422-35d6-4689-b92f-5e3a3e26c730)
 ![image](https://github.com/user-attachments/assets/4797fa32-a283-46be-bfde-4babe8db3231)
+
+Vista de **Notifications & Alerts**: En esta vista, el usuario puede ver las notificaciones y alertas generadas a través de un formulario. También puede consultar las notificaciones archivadas, leídas o todas.
 ![image](https://github.com/user-attachments/assets/9dc72c62-482d-48d5-8869-ef2bb77f45c7)
 ![image](https://github.com/user-attachments/assets/51ec2520-0e88-4810-9315-bb66306f0b4b)
 ![image](https://github.com/user-attachments/assets/0967ce37-5c0f-4994-8132-327dc77f9e89)
+
+Vista de **Residents**: Muestra los residentes registrados en formato de cards. Cada card incluye botones para editar o eliminar los datos de los residentes.
 ![image](https://github.com/user-attachments/assets/6a985019-bdc1-425c-872d-efa3de3ed4b4)
 ![image](https://github.com/user-attachments/assets/e4688d10-9278-4a15-a0b2-3b03fa8e0a2c)
 ![image](https://github.com/user-attachments/assets/cd93681c-ecbb-45a5-ace0-5de39adea388)
 ![image](https://github.com/user-attachments/assets/c729fb00-bf15-44ee-bcb5-ff715240921c)
+
+Vista de **Payment**: En esta vista, el usuario selecciona el método de pago deseado, además de completar un formulario con los campos requeridos.
 ![image](https://github.com/user-attachments/assets/be96a45c-9d4f-4640-85fc-dedd8a8908ba)
+
+Vista de User: Permite la creación de un Doctor mediante un formulario que solicita todos los campos necesarios. Además, se pueden actualizar los datos del doctor o eliminar su perfil.
 ![image](https://github.com/user-attachments/assets/e7a5a426-d94a-45d3-91d5-20cca55d4830)
 ![image](https://github.com/user-attachments/assets/3cd2f440-f1fd-46e9-b589-d20a7516590b)
 ![image](https://github.com/user-attachments/assets/ca2c67e7-b200-4e76-b12e-07d93380cef3)
 ![image](https://github.com/user-attachments/assets/1e3e77d1-6ce7-4b57-85cf-5078f46ff867)
+
+Para la parte de Backend se logra ver la correcta implementación de todos nuestros endpoints.
 ![image](https://github.com/user-attachments/assets/d07a7b37-ae7b-4b28-ba1c-bf2d1f51df09)
 ![image](https://github.com/user-attachments/assets/831b588a-c8fe-4982-8fc2-feadace30f81)
 ![image](https://github.com/user-attachments/assets/f0e65ccc-840a-4bd7-8583-93cc20590a48)
