@@ -2463,6 +2463,31 @@ Esta sección ofrece un resumen del objetivo central del sprint, resaltando las 
 Este es nuestro link de invitación a nuestro Trello:
 [https://trello.com/invite/b/68267bff8d17b7cdedc81fc0/ATTI9b222886c42338db28af15f683f5af1554589F3D/si729-20251-4328-grupo-1](https://trello.com/invite/b/68267bff8d17b7cdedc81fc0/ATTI9b222886c42338db28af15f683f5af1554589F3D/si729-20251-4328-grupo-1)
 
+| User Story ID | User Story | Work-Item / Task ID | Work-Item / Task Title | Description | Estimation (Hours) | Status |
+|---------------|------------|---------------------|------------------------|-------------|--------------------|--------|
+| US-06 | Conocer los servicios del asilo | TS101 | Sección "WHAT DOES AGECARE OFFER?" | Crear e integrar una sección informativa visualmente atractiva sobre los servicios del asilo | 3 | Done |
+| US-16 | Ver equipo profesional del asilo | TS102 | Sección "About the Team" | Mostrar miembros clave del equipo con nombres, cargos y breve descripción | 2 | Done |
+| US-18 | Ver testimonios y casos de éxito | TS103 | Sección "About the Product" | Mostrar testimonios y/o beneficios clave del producto o solución | 2 | Done |
+| US-39 | Mostrar desarrolladores del equipo | TS104 | Sección "Development Team" | Agregar tarjetas con nombre, rol y foto del equipo de desarrollo | 2 | Done |
+| US-20 | Registrar un nuevo residente (API) | TS105 | Endpoint POST /resident | Implementar lógica para registrar un residente en Resident Care Management | 3 | Done |
+| US-21 | Actualizar datos del residente (API) | TS106 | Endpoint PUT /resident/{id} | Actualizar datos personales o médicos del residente | 3 | Done |
+| US-23 | Eliminar registro médico (API) | TS107 | Endpoint DELETE /resident/{id} | Eliminar un residente del sistema | 2 | Done |
+| US-09 | Consultar API de residentes (GET) | TS108 | Endpoint GET /resident | Listar todos los residentes desde el backend | 2 | Done |
+| US-40 | Gestionar turnos de cita médica | TS109 | Endpoint POST /appointments | Crear una nueva cita médica para un residente | 3 | Done |
+| US-40 | Gestionar turnos de cita médica | TS110 | Endpoint GET /appointments | Listar citas médicas registradas | 2 | Done |
+| US-40 | Gestionar turnos de cita médica | TS111 | Endpoint PUT /appointments/{id} | Modificar detalles de una cita existente | 2 | Done |
+| US-40 | Gestionar turnos de cita médica | TS112 | Endpoint DELETE /appointments/{id} | Eliminar una cita registrada | 2 | Done |
+| US-41 | Gestionar notificaciones del sistema | TS113 | Endpoint POST /notifications | Crear notificación del sistema | 2 | Done |
+| US-41 | Gestionar notificaciones del sistema | TS114 | Endpoint GET /notifications | Listar todas las notificaciones | 2 | Done |
+| US-41 | Gestionar notificaciones del sistema | TS115 | Endpoint DELETE /notifications/{id} | Eliminar una notificación | 1 | Done |
+| US-42 | Gestionar pagos de residentes | TS116 | Endpoint POST /payments | Registrar pago de un residente | 2 | Done |
+| US-42 | Gestionar pagos de residentes | TS117 | Endpoint GET /payments | Consultar pagos registrados | 2 | Done |
+| US-42 | Gestionar pagos de residentes | TS118 | Endpoint DELETE /payments/{id} | Eliminar pago | 1 | Done |
+| US-43 | Gestionar usuarios del sistema | TS119 | Endpoint POST /users | Crear nuevo usuario (admin, cuidador, médico, etc.) | 2 | Done |
+| US-43 | Gestionar usuarios del sistema | TS120 | Endpoint GET /users | Consultar listado de usuarios | 2 | Done |
+| US-43 | Gestionar usuarios del sistema | TS121 | Endpoint DELETE /users/{id} | Eliminar usuario | 1 | Done |
+
+
 ##### 5.2.3.4. Development Evidence for Sprint Review.
 
   En esta sección se explica y presenta los avances en implementación con relación a los productos de la solución según el alcance del Sprint: **Landing Page**, **Web Applications (Frontend)** y **Web Services (Backend)**.  
