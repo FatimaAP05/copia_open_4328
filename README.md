@@ -1027,7 +1027,11 @@ Este backlog ha sido construido a partir de las historias de usuario previamente
 | 36 | US-17 | Solicitar información desde la web | Como visitante, quiero llenar un formulario de contacto para recibir más información personalizada sobre los servicios. | 3 |
 | 37 | US-18 | Ver testimonios y casos de éxito | Como visitante, quiero leer experiencias reales para sentir confianza en el servicio. | 2 |
 | 38 | US-19 | Descargar folleto informativo | Como visitante, quiero descargar un folleto para compartir la información del servicio con otros miembros de mi familia. | 3 |
-
+| 39 | US-39 | Mostrar desarrolladores del equipo | Como visitante, quiero ver al equipo de desarrollo del sistema para conocer quiénes están detrás del producto. | 1 |
+| 40 | US-40 | Gestionar turnos de cita médica | Como cuidador, quiero registrar, modificar o eliminar turnos de cita médica para los residentes. | 5 |
+| 41 | US-41 | Gestionar notificaciones del sistema | Como administrador, quiero crear y eliminar notificaciones para informar al personal o familiares. | 3 |
+| 42 | US-42 | Gestionar pagos de residentes | Como responsable de finanzas, quiero registrar y consultar pagos de los residentes. | 5 |
+| 43 | US-43 | Gestionar usuarios del sistema | Como administrador, quiero gestionar (crear, consultar, eliminar) usuarios del sistema. | 5 |
 
 ## Capítulo IV: Product Design
 
