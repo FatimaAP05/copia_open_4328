@@ -202,10 +202,10 @@ A continuación, se presentan los avances y reportes obtenidos durante este proc
       - [5.2.3.3. Sprint Backlog 3](5233-Sprint-Backlog-3)
       - [5.2.3.4. Development Evidence for Sprint Review](5234-Development-Evidence-for-Sprint-Review)
       - [5.2.3.5. Execution Evidence for Sprint Review](5235-Executio-Evidence-for-Sprint-Review)
-      - [5.2.3.6. Services Documentation Evidence for Sprint Review](5236-Services-Documentation-Evidence-for-Sprint-Review.)
+      - [5.2.3.6. Services Documentation Evidence for Sprint Review](5236-Services-Documentation-Evidence-for-Sprint-Review)
       - [5.2.3.7. Software Deployment Evidence for Sprint Review](5237-Software-Deployment-Evidence-for-Sprint-Review)
       - [5.2.3.8. Team Collaboration Insights during Sprint](5238-Team-Collaboration-Insights-during-Sprint)
-      - [5.3. Validation Interviews](53-Validation-Interviews)
+   - [5.3. Validation Interviews](53-Validation-Interviews)
       - [5.3.1. Diseño de Entrevistas](531-Diseño-de-Entrevistas)
       - [5.3.2. Registro de Entrevistas](532-Registro-de-Entrevistas)
       - [5.3.3. Evaluaciones según heurísticas](533-Evaluaciones-según-heurísticas.)
@@ -2594,7 +2594,7 @@ Enalce about the product
 
 https://upcedupe-my.sharepoint.com/personal/u202217212_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202217212%5Fupc%5Fedu%5Fpe%2FDocuments%2Fupc%2Dpre%2D202510%2D1asi0729%2D4328%2Dlively%2Dabout%2Dthe%2Dteam%2Dsprint%2D3%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E15aababf%2D8d63%2D43ea%2Daf71%2De122053f15aa&isDarkMode=true
 
-##### 5.2.3.6. Services Documentation Evidence for Sprint Review.
+##### 5.2.3.6. Services Documentation Evidence for Sprint Review
 
 En esta sección se presenta la evidencia de documentación de los servicios desarrollados durante el sprint para la aplicación **AgeCare**, los cuales están disponibles y visibles mediante Swagger.  
 Se detallan los principales endpoints implementados para cada uno de los módulos funcionales, incluyendo su método HTTP, ruta y descripción correspondiente.
