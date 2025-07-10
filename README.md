@@ -2806,9 +2806,34 @@ A continuación se muestra evidencia de la coolaboración del equipo mediante in
 
 ##### 5.2.4.1. Sprint Planning 4
 
+ En esta sección se resumen los puntos clave del Sprint Planning, incluyendo los objetivos, entregables y tareas asignadas para el sprint. A continuación, se presenta un cuadro con los detalles acordados.
+
+| Sprint #                             | Sprint 4                                                                                              |
+|--------------------------------|--------------------------------------------------------------------------------------------------------|
+| **Date**       |     2025-07-05        |
+| Time           | 10:00 PM                      |
+| Location       | Virtual - Meet               |
+| Prepared By    | Mauricio Muñoz               |
+| Attendees (to planning meeting)| Jeremy Quijada, Franco Huang, Fatima Asmad, Mauricio Muñoz, Ramiro Guzman                    |
+| Sprint 1 - 3 Review Summary    | Se ha realizado las mejoras indicadas en el informe, incluyendo la implementación de la aplicación Front End conectada con el Back End, la validación de la arquitectura y la mejora de la comunicación entre los integrantes.|
+| Sprint 1 - 3 Retrospective Summary | Se alcanzó el progreso esperado durante el sprint 4: se completo las tareas esperadas además, el equipo mejoró significativamente en comunicación y trabajo colaborativo, lo que permitió alcanzar la finalización en el desarrollo de la aplicación.
+| Sprint 4 Goal                  | En este sprint, nos enfocamos en completar la union de nuestro Front End con el Back End en cada uno de los Bounded Contexts, asegurando una integración perfecta entre ambos. Durante esta fase, desarrollamos diversos módulos con operaciones que permiten gestionar distintos recursos del sistema.
+| Sprint 4 Velocity              | Nuestro equipo puede aceptar hasta -- Story Points.                                                  |
+| Sum of Story Points            | La suma de Story Points atendidos es de  --. |
+
 ##### 5.2.4.2. Aspect Leaders and Collaborators
+Durante este sprint, nuestro objetivo fue finalizar la aplicacion tanto en el Front End como en el Back End, asegurando una integración perfecta entre ambos. La investigacion, entrevistas y datos recolectados ayudaron a que se pueda generar una vision mas clara del objetivo en el grupo. Por ello aqui se presentan los roles que cada uno de los participantes tuvo a lo largo de este sprint.
+
+| Team Member (Last Name, First Name)       | GitHub Username   | Aspect Name 1 (L/C) 
+|------------------------------------------|-------------------|---------------------|
+| Mauricio Muñoz Vilcapoma | MauricioMVilcapoma  | L  | 
+| Fatima Asmad Padilla   |  FatimaAP05    | C         |  
+| Jeremy Quijada Magro   | jhonson2021    | C         | 
+| Franco Huang Liu       | St4rLght05     | C         |  
+| Ramiro Guzman Chavéz   | RamiroGuzmanCh | C         |  
 
 ##### 5.2.4.3. Sprint Backlog 4
+
 
 ##### 5.2.4.4. Development Evidence for Sprint Review
 
