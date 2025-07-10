@@ -205,6 +205,15 @@ A continuación, se presentan los avances y reportes obtenidos durante este proc
       - [5.2.3.6. Services Documentation Evidence for Sprint Review](5236-Services-Documentation-Evidence-for-Sprint-Review)
       - [5.2.3.7. Software Deployment Evidence for Sprint Review](5237-Software-Deployment-Evidence-for-Sprint-Review)
       - [5.2.3.8. Team Collaboration Insights during Sprint](5238-Team-Collaboration-Insights-during-Sprint)
+    - [5.2.4. Sprint 4](#524-Sprint-4)
+      - [5.2.4.1. Sprint Planning 4](#5241-Sprint-Planning-4)
+      - [5.2.4.2. Aspect Leaders and Collaborators](#5242-Aspect-Leaders-and-Collaborators)
+      - [5.2.4.3. Sprint Backlog 4](#5243-Sprint-Backlog-4)
+      - [5.2.4.4. Development Evidence for Sprint Review](#5244-Development-Evidence-for-Sprint-Review)
+      - [5.2.4.5. Execution Evidence for Sprint Review](#5245-Execution-Evidence-for-Sprint-Review)
+      - [5.2.4.6. Services Documentation Evidence for Sprint Review](#5246-Services-Documentation-Evidence-for-Sprint-Review)
+      - [5.2.4.7. Software Deployment Evidence for Sprint Review](#5247-Software-Deployment-Evidence-for-Sprint-Review)
+      - [5.2.4.8. Team Collaboration Insights during Sprint](#5248-Team-Collaboration-Insights-during-Sprint)
    - [5.3. Validation Interviews](53-Validation-Interviews)
       - [5.3.1. Diseño de Entrevistas](531-Diseño-de-Entrevistas)
       - [5.3.2. Registro de Entrevistas](532-Registro-de-Entrevistas)
@@ -2792,6 +2801,24 @@ A continuación se muestra evidencia de la coolaboración del equipo mediante in
 **Backend:**
 ![Evidence](./assets/back_pulse3.jpg)
 ![Evidence](./assets/back_netgraph3.jpg)
+
+#### 5.2.4. Sprint 4
+
+##### 5.2.4.1. Sprint Planning 4
+
+##### 5.2.4.2. Aspect Leaders and Collaborators
+
+##### 5.2.4.3. Sprint Backlog 4
+
+##### 5.2.4.4. Development Evidence for Sprint Review
+
+##### 5.2.4.5. Execution Evidence for Sprint Review
+
+##### 5.2.4.6. Services Documentation Evidence for Sprint Review
+
+##### 5.2.4.7. Software Deployment Evidence for Sprint Review
+
+##### 5.2.4.8. Team Collaboration Insights during Sprint
 
 #### 5.3. Validation Interviews.
 Como parte del proceso de validación del sistema AgeCareDB, se realizaron entrevistas semiestructuradas con distintos tipos de usuarios para evaluar la utilidad, usabilidad y aceptación de la plataforma en contextos reales. Estas entrevistas permitieron recopilar información cualitativa sobre la experiencia de uso desde la perspectiva de familiares, personal de salud y administradores de asilos. A través de preguntas abiertas, se exploraron aspectos como la facilidad de uso, la percepción de valor, la comprensión del sistema, y el impacto percibido en la comunicación y seguimiento del estado de los residentes. Los hallazgos de estas entrevistas sirvieron para confirmar hipótesis de diseño, identificar oportunidades de mejora y validar que el producto responde a las necesidades clave detectadas en etapas previas del proceso de diseño centrado en el usuario.
