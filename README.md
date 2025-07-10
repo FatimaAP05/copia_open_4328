@@ -2821,7 +2821,7 @@ A continuación se muestra evidencia de la coolaboración del equipo mediante in
 ##### 5.2.4.8. Team Collaboration Insights during Sprint
 A continuación se muestra evidencia de la coolaboración del equipo mediante insights de GitHub.
 #### Documento:
-![Evidence](./assets/pulse4.jpg)
+![Evidence](./assets/pulse4.png)
 ![Evidence](./assets/netgraph4.jpg)
 
 **Frontend:**
