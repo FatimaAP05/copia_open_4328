@@ -2834,6 +2834,21 @@ Durante este sprint, nuestro objetivo fue finalizar la aplicacion tanto en el Fr
 | Ramiro Guzman Chavéz   | RamiroGuzmanCh | C         |  
 
 ##### 5.2.4.3. Sprint Backlog 4
+Esta sección ofrece un resumen del objetivo central del sprint, resaltando las metas propuestas y las funcionalidades que se planean desarrollar. Seguidamente, se incluye una captura del tablero del sprint en la herramienta de gestión elegida, Trello, junto con su enlace público. También se presenta una tabla con las User Stories asignadas al sprint, los Work-items o tareas derivadas, y otras actividades adicionales requeridas para alcanzar los objetivos generales del sprint.
+
+| User Story ID | User Story | Work-Item / Task ID | Work-Item / Task Title | Description | Estimation (Hours) | Status |
+|---------------|------------|---------------------|------------------------|-------------|--------------------|--------|
+| US-44 | Gestionar turnos de cita medica | TS122 | Sección Appointments | Vista de citas medicas para familiares | 3 | Done |
+| US-44 | Gestionar turnos de cita medica | TS123 | Sección Appointments | Vista de citas medicas para el doctor | 4 | Done |
+| US-45 | Gestionar turnos de cita medica | TS125 | Endpoint GET `/appointments/searchByResidentId` | Búsqueda de citas medicas por DNI| 2 | Done |
+| US-45 | Gestionar turnos de cita medica | TS126 | Endpoint GET `/appointments` | Busqueda de citas medicas por nombre del doctor o residente| 3 | Done |
+| US-45 | Gestionar turnos de cita medica | TS127 | Endpoint POST `/appointments` | Creación de citas en el frontend | 3 | Done |
+| US-46 | Gestionar residentes | TS128 | Endpoint GET `/residents/{residentID}/details` | Ver detalle de residente por ID | 4 | Done |
+| US-47 | Gestionar pago de boletas | TS129 | Sección Pagos | Vista de creación de boletas para medicos y doctores | 1 | Done |
+| US-48 | Gestionar pago de boletas | TS130 | Sección Pagos | Vista de pago para los familiares | 2 | Done |
+| US-48 | Gestionar pago de boletas | TS131 | Sección boletas, PUT `/receipts/{receiptID}` | Pago con diferentes medios | 3 | Done |
+| US-49 | Gestionar notificaciones | TS132 | GET `/notifications/{id}/unarchive` | Desarchivar notificaciones | 2 | Done |
+| US-49 | Gestionar notificaciones | TS133 | GET `notifications/{id}/mark-as-read` | Marcar como leido a la notificación | 2 | Done |
 
 
 ##### 5.2.4.4. Development Evidence for Sprint Review
