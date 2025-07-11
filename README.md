@@ -2817,6 +2817,9 @@ Se detallan los principales endpoints implementados para cada uno de los módulo
 ![Evidence](./assets/az10.jpg)
 ![Evidence](./assets/az11.jpg)
 
+Este es el resultado:
+
+
 ##### 5.2.3.8.Team Collaboration Insights during Sprint.
 A continuación se muestra evidencia de la coolaboración del equipo mediante insights de GitHub.
 #### Documento:
