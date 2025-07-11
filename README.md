@@ -2788,6 +2788,17 @@ Se detallan los principales endpoints implementados para cada uno de los módulo
 
 
 ##### 5.2.3.7.Software Deployment Evidence for Sprint Review.
+![Evidence](./assets/az1.jpg)
+![Evidence](./assets/az2.jpg)
+![Evidence](./assets/az3.jpg)
+![Evidence](./assets/az4.jpg)
+![Evidence](./assets/az5.jpg)
+![Evidence](./assets/az6.jpg)
+![Evidence](./assets/az7.jpg)
+![Evidence](./assets/az8.jpg)
+![Evidence](./assets/az9.jpg)
+![Evidence](./assets/az10.jpg)
+![Evidence](./assets/az11.jpg)
 
 ##### 5.2.3.8.Team Collaboration Insights during Sprint.
 A continuación se muestra evidencia de la coolaboración del equipo mediante insights de GitHub.
