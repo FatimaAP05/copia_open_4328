@@ -2837,8 +2837,40 @@ Durante este sprint, nuestro objetivo fue finalizar la aplicacion tanto en el Fr
 
 
 ##### 5.2.4.4. Development Evidence for Sprint Review
+En este item se presentan las evidencias de la ejecución de las tareas y user stories del Sprint 4, incluyendo el desarrollo de la Landing Page FrontEnd y BackEnd.
+
+**Landing Page**
+Dashboard:
+![image](https://github.com/user-attachments/assets/3bdcc3d9-c4e2-4422-a5d7-927d23306660)
+About Us and Services:
+![image](https://github.com/user-attachments/assets/c87504e7-5839-4e42-b31c-29310cf1f46b)
+Images about the app:
+![image](https://github.com/user-attachments/assets/c9c361a1-b5ff-4278-8a67-07493e6ccbdb)
+![image](https://github.com/user-attachments/assets/3d5ebc4a-2484-4eb0-83a9-2d55b936b6b3)
+![image](https://github.com/user-attachments/assets/733e18c7-ecc3-4487-ae1d-4079034f9db4)
+![image](https://github.com/user-attachments/assets/4981ae30-eff1-4932-839a-b78c82c70ac4)
+![image](https://github.com/user-attachments/assets/5accb5ac-78a2-46e8-b9e7-7068de68876c)
+Questions and answers:
+![image](https://github.com/user-attachments/assets/f79287d7-732b-42c0-8ba4-6c361be2c6ab)
+Contact us:
+![image](https://github.com/user-attachments/assets/10e4e949-39f6-4a11-afcf-4df9f2ed572c)
+
+**FrontEnd**
+
+**BackEnd**
+Vista general de los endpoints:
+![image](https://github.com/user-attachments/assets/d07a7b37-ae7b-4b28-ba1c-bf2d1f51df09)
+Endpoint de Doctores y Familiares:
+![image](https://github.com/user-attachments/assets/831b588a-c8fe-4982-8fc2-feadace30f81)
+Enndpoint de Pagos y Citas Medicas:
+![image](https://github.com/user-attachments/assets/f0e65ccc-840a-4bd7-8583-93cc20590a48)
+Endpoint de Historiales medicos y Notificaciones:
+![image](https://github.com/user-attachments/assets/dee0719b-ed13-4fdf-ae72-099a870e1a17)
+Enpoint de Residentes, Medicamentos y Usuarios:
+![image](https://github.com/user-attachments/assets/af3bcaa9-0a33-43ad-9efb-a09cc940c43a)
 
 ##### 5.2.4.5. Execution Evidence for Sprint Review
+Hacer
 
 ##### 5.2.4.6. Services Documentation Evidence for Sprint Review
 
