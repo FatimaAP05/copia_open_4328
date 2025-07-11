@@ -2805,19 +2805,45 @@ Se detallan los principales endpoints implementados para cada uno de los módulo
 
 
 ##### 5.2.3.7.Software Deployment Evidence for Sprint Review.
+Se entra a la pagina principal de azure:
 ![Evidence](./assets/az1.jpg)
+Se da click a crear -> Web App:
 ![Evidence](./assets/az2.jpg)
+Se llena los datos del proyecto:
 ![Evidence](./assets/az3.jpg)
+Se da a click al botón crear:
 ![Evidence](./assets/az4.jpg)
+Se procede a realizar el deplegue:
 ![Evidence](./assets/az5jpg.jpg)
+Se espera a que termine de desplegar:
 ![Evidence](./assets/az6jpg.jpg)
 ![Evidence](./assets/az7.jpg)
+Y va a salir la notificación de que ha sido un exito el despligue en la esquina superior derecha:
 ![Evidence](./assets/az8.jpg)
+Al entrar al web app se da click en configuración:
 ![Evidence](./assets/az9.jpg)
+Se llenan los datos necesarios para que pueda correr la pagina:
 ![Evidence](./assets/az10.jpg)
+Y por ultimo se le agrega el repositorio de github al que tomará referencia:
 ![Evidence](./assets/az11.jpg)
 
 Este es el resultado:
+Endpoints de doctor:
+![Evidence](./assets/Doctor3.png)
+Endpoits de boleta:
+![Evidence](./assets/receipt3.png)
+Endpoits de appointments:
+![Evidence](./assets/Appointment3.png)
+Endpoints de historial medico:
+![Evidence](./assets/Medical_Histories3.png)
+Endpoints de residentes:
+![Evidence](./assets/Residents3.png)
+Endpoints de medicamentos:
+![Evidence](./assets/Medication3.png)
+Endpoint de familiares:
+![Evidence](./assets/FamiyMembers3.png)
+Endpoint de notificaciones:
+![Evidence](./assets/Notification.png)
 
 
 ##### 5.2.3.8.Team Collaboration Insights during Sprint.
