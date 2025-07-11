@@ -2876,7 +2876,7 @@ Enpoint de Residentes, Medicamentos y Usuarios:
 ![image](https://github.com/user-attachments/assets/af3bcaa9-0a33-43ad-9efb-a09cc940c43a)
 
 ##### 5.2.4.5. Execution Evidence for Sprint Review
-Identificamos diferentes 
+En nuestra plataforma hemos identificado diferentes funcionalidades clave para gestionar la seguridad, roles, autenticación y acceso a la información. A continuación se describen las principales categorías:
 
  ### Roles
 
