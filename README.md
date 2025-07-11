@@ -2887,85 +2887,6 @@ Esta sección ofrece un resumen del objetivo central del sprint, resaltando las 
 ##### 5.2.4.4. Development Evidence for Sprint Review
 
 
-## 🚀 Despliegue del Backend en Azure App Service
-
-A continuación, se detallan los pasos realizados para desplegar el backend del proyecto utilizando **Azure App Service**:
-
----
-
-### 1. Buscar y acceder a “App Services”
-Desde el portal de Azure, se buscó el servicio `App Services` desde la barra superior.
-
-<p align="center">
-<img width="517" height="243" alt="image" src="https://github.com/user-attachments/assets/f5da1c4a-7055-4607-8bf9-b98e211e27fa" />
-</p>
-
----
-
-### 2. Crear una nueva aplicación web
-Una vez dentro de App Services, se hizo clic en **+ Crear** y se seleccionó la opción **Aplicación web**.
-
-<p align="center">
-<img width="181" height="200" alt="image" src="https://github.com/user-attachments/assets/08042046-06e4-4219-ac55-e3f05620199f" />
-</p>
-
----
-
-### 3. Configurar los datos básicos
-Se completaron los siguientes campos en la pestaña de “Datos básicos”:
-
-- **Suscripción**: Azure for Students  
-- **Grupo de recursos**: LivelyAgeCare-OpenSource_group  
-- **Nombre**: `opensource` (URL generada: `opensource.azurewebsites.net`)  
-- **Publicar**: Código  
-- **Sistema operativo**: Linux  
-- **Región**: Canada Central  
-- **Plan de precios**: Básico B1 (ACU: 100, Memoria: 1.75 GB)  
-
-<p align="center">
-<img width="627" height="961" alt="image" src="https://github.com/user-attachments/assets/2938ec80-c759-40a9-859e-ed19235f8b51" />
-</p>
-
----
-
-### 4. Configuración de implementación
-Se revisaron las opciones de implementación continua y conexión con GitHub:
-
-- **Implementación continua**: Deshabilitada  
-- **Cuenta de GitHub**: conectada (opcional)  
-- **Repositorio y rama**: Backend rama main
-
-<p align="center">
-<img width="694" height="961" alt="image" src="https://github.com/user-attachments/assets/a26ce0e8-ec1a-4816-bab4-346f9cc36bcc" />
-</p>
-
----
-
-### 5. Revisión final y despliegue
-En la pestaña final se revisaron todos los datos configurados. Una vez confirmados, se hizo clic en **Crear**.
-
-<p align="center">
-<img width="560" height="811" alt="image" src="https://github.com/user-attachments/assets/edb9b962-cd2d-4935-af94-0e2c4c0db5f3" />
-</p>
-
----
-
-### 6. App desplegada y activa
-Una vez completado el despliegue, se accedió a la aplicación desde el panel general. Desde allí se pueden realizar las siguientes acciones:
-
-- Visualizar el dominio generado  
-- Administrar configuración y entorno  
-- Revisar registros de implementación  
-- Conectar variables de entorno, certificados, dominios, etc.  
-
-<p align="center">
-<img width="1764" height="899" alt="image" src="https://github.com/user-attachments/assets/db3bf8ea-e0e7-4b66-8e1d-e525534a1fab" />
-</p>
-
----
-
-### ✅ Resultado
-El backend quedó desplegado correctamente y accesible desde la URL generada por Azure, listo para recibir solicitudes según la configuración establecida.
 
 
 
@@ -3046,6 +2967,88 @@ En nuestra plataforma hemos identificado diferentes funcionalidades clave para g
 ---
 
 ##### 5.2.4.7. Software Deployment Evidence for Sprint Review
+
+
+## 🚀 Despliegue del Backend en Azure App Service
+
+A continuación, se detallan los pasos realizados para desplegar el backend del proyecto utilizando **Azure App Service**:
+
+---
+
+### 1. Buscar y acceder a “App Services”
+Desde el portal de Azure, se buscó el servicio `App Services` desde la barra superior.
+
+<p align="center">
+<img width="517" height="243" alt="image" src="https://github.com/user-attachments/assets/f5da1c4a-7055-4607-8bf9-b98e211e27fa" />
+</p>
+
+---
+
+### 2. Crear una nueva aplicación web
+Una vez dentro de App Services, se hizo clic en **+ Crear** y se seleccionó la opción **Aplicación web**.
+
+<p align="center">
+<img width="181" height="200" alt="image" src="https://github.com/user-attachments/assets/08042046-06e4-4219-ac55-e3f05620199f" />
+</p>
+
+---
+
+### 3. Configurar los datos básicos
+Se completaron los siguientes campos en la pestaña de “Datos básicos”:
+
+- **Suscripción**: Azure for Students  
+- **Grupo de recursos**: LivelyAgeCare-OpenSource_group  
+- **Nombre**: `opensource` (URL generada: `opensource.azurewebsites.net`)  
+- **Publicar**: Código  
+- **Sistema operativo**: Linux  
+- **Región**: Canada Central  
+- **Plan de precios**: Básico B1 (ACU: 100, Memoria: 1.75 GB)  
+
+<p align="center">
+<img width="627" height="961" alt="image" src="https://github.com/user-attachments/assets/2938ec80-c759-40a9-859e-ed19235f8b51" />
+</p>
+
+---
+
+### 4. Configuración de implementación
+Se revisaron las opciones de implementación continua y conexión con GitHub:
+
+- **Implementación continua**: Deshabilitada  
+- **Cuenta de GitHub**: conectada (opcional)  
+- **Repositorio y rama**: Backend rama main
+
+<p align="center">
+<img width="694" height="961" alt="image" src="https://github.com/user-attachments/assets/a26ce0e8-ec1a-4816-bab4-346f9cc36bcc" />
+</p>
+
+---
+
+### 5. Revisión final y despliegue
+En la pestaña final se revisaron todos los datos configurados. Una vez confirmados, se hizo clic en **Crear**.
+
+<p align="center">
+<img width="560" height="811" alt="image" src="https://github.com/user-attachments/assets/edb9b962-cd2d-4935-af94-0e2c4c0db5f3" />
+</p>
+
+---
+
+### 6. App desplegada y activa
+Una vez completado el despliegue, se accedió a la aplicación desde el panel general. Desde allí se pueden realizar las siguientes acciones:
+
+- Visualizar el dominio generado  
+- Administrar configuración y entorno  
+- Revisar registros de implementación  
+- Conectar variables de entorno, certificados, dominios, etc.  
+
+<p align="center">
+<img width="1764" height="899" alt="image" src="https://github.com/user-attachments/assets/db3bf8ea-e0e7-4b66-8e1d-e525534a1fab" />
+</p>
+
+---
+
+### ✅ Resultado
+El backend quedó desplegado correctamente y accesible desde la URL generada por Azure, listo para recibir solicitudes según la configuración establecida.
+
 
 ##### 5.2.4.8. Team Collaboration Insights during Sprint
 A continuación se muestra evidencia de la coolaboración del equipo mediante insights de GitHub.
