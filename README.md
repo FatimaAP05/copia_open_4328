@@ -2840,6 +2840,8 @@ Durante este sprint, nuestro objetivo fue finalizar la aplicacion tanto en el Fr
 En este item se presentan las evidencias de la ejecución de las tareas y user stories del Sprint 4, incluyendo el desarrollo de la Landing Page FrontEnd y BackEnd.
 
 **Landing Page**
+
+
 Dashboard:
 ![image](https://github.com/user-attachments/assets/3bdcc3d9-c4e2-4422-a5d7-927d23306660)
 About Us and Services:
@@ -2857,7 +2859,11 @@ Contact us:
 
 **FrontEnd**
 
+
+
 **BackEnd**
+
+
 Vista general de los endpoints:
 ![image](https://github.com/user-attachments/assets/d07a7b37-ae7b-4b28-ba1c-bf2d1f51df09)
 Endpoint de Doctores y Familiares:
@@ -2870,7 +2876,41 @@ Enpoint de Residentes, Medicamentos y Usuarios:
 ![image](https://github.com/user-attachments/assets/af3bcaa9-0a33-43ad-9efb-a09cc940c43a)
 
 ##### 5.2.4.5. Execution Evidence for Sprint Review
-Hacer
+Identificamos diferentes 
+
+ ### Roles
+
+| Método | Endpoint | Description |
+|--------|----------|-------------|
+| GET    | `/api/v1/roles` | Get all Roles|
+
+---
+
+ ### Auth
+
+| Método | Endpoint | Description |
+|--------|----------|-------------|
+| POST   | `/api/v1/authentication/sign-up` | Registers a new user in the system  |
+| POST    | `/api/v1/authentication/sign-in` | Authenticates the user and returns a JWT token |
+
+---
+
+ ### Resident
+
+| Método | Endpoint | Description |
+|--------|----------|-------------|
+| GET    | `/api/v1/residents/searchByDni` | Get a residen't details |
+
+
+ ### Notification
+
+| Método | Endpoint | Description |
+|--------|----------|-------------|
+| POST    | `/api/v1/notifications/{id}/unarchive` | Unarchives a specific notification |
+| POST    | `/api/v1/notifications/{id}/mark-as-read` | Marks a specific notification as read |
+| GET    | `/api/v1/notifications/{userId}` | Get notifications by user ID |
+
+---
 
 ##### 5.2.4.6. Services Documentation Evidence for Sprint Review
 
