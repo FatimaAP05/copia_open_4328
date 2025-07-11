@@ -2841,9 +2841,9 @@ Endpoints de residentes:
 Endpoints de medicamentos:
 ![Evidence](./assets/Medication3.png)
 Endpoint de familiares:
-![Evidence](./assets/FamiyMembers3.png)
+![Evidence](./assets/FamilyMembers3.png)
 Endpoint de notificaciones:
-![Evidence](./assets/Notification.png)
+![Evidence](./assets/Notifications3.png)
 
 
 ##### 5.2.3.8.Team Collaboration Insights during Sprint.
