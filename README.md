@@ -3022,9 +3022,24 @@ Contact us:
 ![image](https://github.com/user-attachments/assets/10e4e949-39f6-4a11-afcf-4df9f2ed572c)
 
 **FrontEnd**
-
-
-
+Pagina principal:
+![Front](./assets/front1.jpg)
+Vista de registro y busqueda de doctores:
+![Front](./assets/front2.jpg)
+Vista de genración de boletas:
+![Front](./assets/front3.jpg)
+Vista de pago de boletas:
+![Front](./assets/front4.jpg)
+Vista de registro de residentes:
+![Front](./assets/front5.jpg)
+Vista de busqueda de consultas:
+![Front](./assets/front6.jpg)
+Vista de Registro de consultas:
+![Front](./assets/front7.jpg)
+Vista de creación de notificaciones:
+![Front](./assets/front8.jpg)
+Vista de vista de notificaciones:
+![Front](./assets/front9.jpg)
 **BackEnd**
 
 
