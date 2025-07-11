@@ -2885,8 +2885,81 @@ Esta sección ofrece un resumen del objetivo central del sprint, resaltando las 
 | US-50 | Gestionar Roles | TS136 | GET `/roles` | El usuario entra a la sesión con su respectivo rol | 2 | Done |
 
 ##### 5.2.4.4. Development Evidence for Sprint Review
+En esta sección se explica y presenta los avances en implementación con relación a los productos de la solución según el alcance del Sprint: **Landing Page**, **Web Applications (Frontend)** y **Web Services (Backend)**.  
+La sección inicia con una introducción que resume los principales avances en la implementación.
 
+Web Services (Backend) — upc-pre-202510-1asi0729-4328-Lively/Backend-AgeCare
 
+| Repository                                                  | Branch  | Commit ID | Commit Message                                               | Commit Message Body                                               | Commited on (Date) |
+|-------------------------------------------------------------|---------|-----------|----------------------------------------------------------------|-------------------------------------------------------------------|--------------------|
+| upc-pre-202510-1asi0729-4328-Lively/Backend                 | develop | 0e3cee4   | feat/payment                                                  | feat/payment                                                      | 23/06/2025         |
+| upc-pre-202510-1asi0729-4328-Lively/Backend                 | develop | 3bed270   | feat/users                                                    | add users                                                         | 23/06/2025         |
+| upc-pre-202510-1asi0729-4328-Lively/Backend                 | develop | 5bdc038   | build/deploy config                                           | Add or update Azure App Service build and deployment workflow     | 23/06/2025         |
+| upc-pre-202510-1asi0729-4328-Lively/Backend                 | develop | 4397de9   | Update pom.xml                                                | Update pom.xml                                                    | 23/06/2025         |
+| upc-pre-202510-1asi0729-4328-Lively/Backend                 | develop | 4f99653   | Update develop_livelyagecare-opensource.yml                  | Update develop_livelyagecare-opensource.yml                       | 23/06/2025         |
+| upc-pre-202510-1asi0729-4328-Lively/Backend                 | develop | 914d8b3   | Update application.properties                                 | Update application.properties                                     | 23/06/2025         |
+| upc-pre-202510-1asi0729-4328-Lively/Backend                 | develop | c43e985   | Update pom.xml                                                | Update pom.xml                                                    | 23/06/2025         |
+| upc-pre-202510-1asi0729-4328-Lively/Backend                 | develop | 948cba2   | Update application.properties                                 | Update application.properties                                     | 23/06/2025         |
+| upc-pre-202510-1asi0729-4328-Lively/Backend                 | develop | 6c6bb5c   | Update application.properties                                 | Update application.properties                                     | 23/06/2025         |
+| upc-pre-202510-1asi0729-4328-Lively/Backend                 | develop | cd669d3   | feat: Add ResidentDetailsResource                     | feat: Add ResidentDetailsResource                           | 03/07/2025         |
+| upc-pre-202510-1asi0729-4328-Lively/Backend                 | develop | faecc4a   | feat: Add ResidentDetailsResourceFromEntityAssembler  | feat: Add ResidentDetailsResourceFromEntityAssembler        | 03/07/2025         |
+| upc-pre-202510-1asi0729-4328-Lively/Backend                 | develop | e850d83   | chore: change readme.md                               | chore: change readme.md                                     | 03/07/2025         |
+| upc-pre-202510-1asi0729-4328-Lively/Backend                 | develop | 23c860b   | Update README.md                                      | Update README.md                                             | 04/07/2025         |
+| upc-pre-202510-1asi0729-4328-Lively/Backend                 | develop | d884318   | chore: Add documentation for Doctors and Receipts     | chore: Add documentation for Doctors and Receipts           | 04/07/2025         |
+| upc-pre-202510-1asi0729-4328-Lively/Backend                 | develop | 73b72f2   | chore: Added documentation on missing controllers     | chore: Added documentation on missing controllers           | 04/07/2025         |
+| upc-pre-202510-1asi0729-4328-Lively/Backend                 | feat/payment   | ea5531d   | Cambios en el back relacionados a los pagos   | Cambios en el back relacionados a los pagos        | 10/07/2025         |
+| upc-pre-202510-1asi0729-4328-Lively/Backend                 | feat/payment   | 1839cd9   | Merge branch 'develop' into feat/payment       | Merge branch 'develop' into feat/payment           | 10/07/2025         |
+| upc-pre-202510-1asi0729-4328-Lively/Backend                 | feat/payment   | 2ad30ea   | Merge pull request #14                         | Merge pull request #14 from develop to feat/payment| 10/07/2025         |
+| upc-pre-202510-1asi0729-4328-Lively/Backend                 | develop        | b44efca   | feat:add NotificationQueryServiceImpl          | feat:add NotificationQueryServiceImpl              | 10/07/2025         |
+| upc-pre-202510-1asi0729-4328-Lively/Backend                 | develop        | 538a4f8   | feat:add NotificationService                   | feat:add NotificationService                       | 10/07/2025         |
+| upc-pre-202510-1asi0729-4328-Lively/Backend                 | develop        | a9fba53   | feat:add NotificationDTO                       | feat:add NotificationDTO                           | 10/07/2025         |
+| upc-pre-202510-1asi0729-4328-Lively/Backend                 | develop        | fb63a8a   | feat:add NotificationRepository                | feat:add NotificationRepository                    | 10/07/2025         |
+| upc-pre-202510-1asi0729-4328-Lively/Backend                 | develop        | 1cf2af8   | feat:add NotificationQueryServiceImpl          | feat:add NotificationQueryServiceImpl              | 10/07/2025         |
+| upc-pre-202510-1asi0729-4328-Lively/Backend                 | develop        | 369ddc8   | feat:fix NotificationQueryService              | feat:fix NotificationQueryService                  | 10/07/2025         |
+| upc-pre-202510-1asi0729-4328-Lively/Backend                 | develop        | bd3afbd   | feat:fix NotificationController                | feat:fix NotificationController                    | 10/07/2025         |
+| upc-pre-202510-1asi0729-4328-Lively/Backend                 | develop        | 9da2c04   | feat:fix NotificationCommandServiceImpl        | feat:fix NotificationCommandServiceImpl            | 10/07/2025         |
+| upc-pre-202510-1asi0729-4328-Lively/Backend                 | develop        | 66c347a   | feat:fix NotificationCommandService            | feat:fix NotificationCommandService                | 10/07/2025         |
+| upc-pre-202510-1asi0729-4328-Lively/Backend                 | develop        | bafe8bc   | feat:fix Notification                          | feat:fix Notification                              | 10/07/2025         |
+| upc-pre-202510-1asi0729-4328-Lively/Backend                 | develop        | 0428871   | feat:fix CreateNotificationCommand             | feat:fix CreateNotificationCommand                 | 10/07/2025         |
+
+Web Applications (Frontend) — upc-pre-202510-1asi0729-4328-Lively/Frontend-AgeCare
+
+| Repository                                                  | Branch         | Commit ID | Commit Message                                | Commit Message Body                                | Commited on (Date) |
+|-------------------------------------------------------------|----------------|-----------|------------------------------------------------|----------------------------------------------------|--------------------|
+| upc-pre-202510-1asi0729-4328-Lively/Frontend-AgeCare        | develop        | e39c14a   | styles on headercomponent                     | styles on headercomponent                          | 11/07/2025         |
+| upc-pre-202510-1asi0729-4328-Lively/Frontend-AgeCare        | develop        | 2ba862b   | fix: routes                                   | fix: routes                                       | 11/07/2025         |
+| upc-pre-202510-1asi0729-4328-Lively/Frontend-AgeCare        | develop        | c0ec5fe   | Commit                                        | Commit                                            | 11/07/2025         |
+| upc-pre-202510-1asi0729-4328-Lively/Frontend-AgeCare        | develop        | e52ccb3   | fix: errors                                   | fix: errors                                       | 10/07/2025         |
+| upc-pre-202510-1asi0729-4328-Lively/Frontend-AgeCare        | develop        | 70db227   | fix: routes                                   | fix: routes                                       | 10/07/2025         |
+| upc-pre-202510-1asi0729-4328-Lively/Frontend-AgeCare        | develop        | 8cd0e9d   | added: TOKEN                                  | added: TOKEN                                      | 10/07/2025         |
+| upc-pre-202510-1asi0729-4328-Lively/Frontend-AgeCare        | develop        | 92941ff   | Added: token verification                      | Added: token verification                         | 10/07/2025         |
+| upc-pre-202510-1asi0729-4328-Lively/Frontend-AgeCare        | develop        | a515971   | refactor FooterComponent                      | refactor FooterComponent                          | 10/07/2025         |
+| upc-pre-202510-1asi0729-4328-Lively/Frontend-AgeCare        | develop        | adce845   | refactor Home Component                        | refactor Home Component                           | 10/07/2025         |
+| upc-pre-202510-1asi0729-4328-Lively/Frontend-AgeCare        | develop        | 52d331d   | refactor Page Not Found Component              | refactor Page Not Found Component                 | 10/07/2025         |
+| upc-pre-202510-1asi0729-4328-Lively/Frontend-AgeCare        | develop        | c117cd6   | fix: errors of navbar and routes               | fix: errors of navbar and routes                  | 10/07/2025         |
+| upc-pre-202510-1asi0729-4328-Lively/Frontend-AgeCare        | bc/payment           | 30feb14   | Merge pull request #18 from bc/payment               | Merge pull request #18 from bc/payment                     | 11/07/2025         |
+| upc-pre-202510-1asi0729-4328-Lively/Frontend-AgeCare        | bc/payment           | cc6189a   | Merge branch 'develop' into bc/payment               | Merge branch 'develop' into bc/payment                     | 11/07/2025         |
+| upc-pre-202510-1asi0729-4328-Lively/Frontend-AgeCare        | bc/payment           | 321c2a4   | Frontend Conectado al Back                           | Frontend Conectado al Back                                 | 11/07/2025         |
+| upc-pre-202510-1asi0729-4328-Lively/Frontend-AgeCare        | feat/notification... | a410e28   | Merge pull request #17                               | Merge pull request #17 from notification-familymember      | 11/07/2025         |
+| upc-pre-202510-1asi0729-4328-Lively/Frontend-AgeCare        | feat/notification... | 4f78361   | Merge branch 'develop' into notification-management  | Merge branch 'develop' into notification-management        | 11/07/2025         |
+| upc-pre-202510-1asi0729-4328-Lively/Frontend-AgeCare        | feat/appointment     | 320e3a0   | Merge pull request #16                               | Merge pull request #16 from feat/appointment               | 11/07/2025         |
+| upc-pre-202510-1asi0729-4328-Lively/Frontend-AgeCare        | feat/appointment     | 8bef429   | feat/ doctor-view appointment finished               | feat/ doctor-view appointment finished                     | 11/07/2025         |
+| upc-pre-202510-1asi0729-4328-Lively/Frontend-AgeCare        | feat/appointment     | 4599133   | Merge pull request #15                               | Merge pull request #15 from feat/appointment               | 11/07/2025         |
+| upc-pre-202510-1asi0729-4328-Lively/Frontend-AgeCare        | feat/appointment     | c2681ae   | fix: update appointments                             | fix: update appointments                                   | 11/07/2025         |
+| upc-pre-202510-1asi0729-4328-Lively/Frontend-AgeCare        | feat/appointment     | 59f6180   | Merge pull request #14                               | Merge pull request #14 from feat/appointment               | 10/07/2025         |
+| upc-pre-202510-1asi0729-4328-Lively/Frontend-AgeCare        | feat/appointment     | 937d0c7   | feat/ resident-view completed                        | feat/ resident-view completed                              | 10/07/2025         |
+| upc-pre-202510-1asi0729-4328-Lively/Frontend-AgeCare        | develop              | 53b8e04   | front actualizado                                    | front actualizado                                          | 10/07/2025         |
+| upc-pre-202510-1asi0729-4328-Lively/Frontend-AgeCare        | develop        | e39c14a   | styles on headercomponent               | styles on headercomponent                     | 11/07/2025         |
+| upc-pre-202510-1asi0729-4328-Lively/Frontend-AgeCare        | develop        | 2ba862b   | fix: routes                             | fix: routes                                   | 11/07/2025         |
+| upc-pre-202510-1asi0729-4328-Lively/Frontend-AgeCare        | develop        | c0ec5fe   | Commit                                  | Commit                                        | 11/07/2025         |
+| upc-pre-202510-1asi0729-4328-Lively/Frontend-AgeCare        | develop        | e52ccb3   | fix: errors                             | fix: errors                                   | 10/07/2025         |
+| upc-pre-202510-1asi0729-4328-Lively/Frontend-AgeCare        | develop        | 70db227   | fix: routes                             | fix: routes                                   | 10/07/2025         |
+| upc-pre-202510-1asi0729-4328-Lively/Frontend-AgeCare        | develop        | 8cd0e9d   | added: TOKEN                            | added: TOKEN                                  | 10/07/2025         |
+| upc-pre-202510-1asi0729-4328-Lively/Frontend-AgeCare        | develop        | 92941ff   | Added: token verification               | Added: token verification                     | 10/07/2025         |
+| upc-pre-202510-1asi0729-4328-Lively/Frontend-AgeCare        | develop        | a515971   | refactor FooterComponent                | refactor FooterComponent                      | 10/07/2025         |
+| upc-pre-202510-1asi0729-4328-Lively/Frontend-AgeCare        | develop        | adce845   | refactor Home Component                 | refactor Home Component                       | 10/07/2025         |
+| upc-pre-202510-1asi0729-4328-Lively/Frontend-AgeCare        | develop        | 52d331d   | refactor Page Not Found Component       | refactor Page Not Found Component             | 10/07/2025         |
+| upc-pre-202510-1asi0729-4328-Lively/Frontend-AgeCare        | develop        | c117cd6   | fix: errors of navbar and routes        | fix: errors of navbar and routes              | 10/07/2025         |
 
 
 
