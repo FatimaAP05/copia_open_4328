@@ -2849,7 +2849,9 @@ Esta sección ofrece un resumen del objetivo central del sprint, resaltando las 
 | US-48 | Gestionar pago de boletas | TS131 | Sección boletas, PUT `/receipts/{receiptID}` | Pago con diferentes medios | 3 | Done |
 | US-49 | Gestionar notificaciones | TS132 | GET `/notifications/{id}/unarchive` | Desarchivar notificaciones | 2 | Done |
 | US-49 | Gestionar notificaciones | TS133 | GET `notifications/{id}/mark-as-read` | Marcar como leido a la notificación | 2 | Done |
-
+| US-50 | Gestionar Autentificaciones | TS134 | GET `authentication/sign-up` | El usuario puede registrarse | 2 | Done |
+| US-50 | Gestionar Autentificaciones | TS135 | GET `authentication/sign-in` | El usuario puede iniciar sesión | 2 | Done |
+| US-50 | Gestionar Roles | TS136 | GET `/roles` | El usuario entra a la sesión con su respectivo rol | 2 | Done |
 
 ##### 5.2.4.4. Development Evidence for Sprint Review
 En este item se presentan las evidencias de la ejecución de las tareas y user stories del Sprint 4, incluyendo el desarrollo de la Landing Page FrontEnd y BackEnd.
