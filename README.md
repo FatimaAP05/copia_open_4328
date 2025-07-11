@@ -2897,6 +2897,9 @@ Esta sección ofrece un resumen del objetivo central del sprint, resaltando las 
 
 ![Sprint4](./assets/sprint_backlog4.jpg)
 
+Este es nuestro link de invitación a nuestro Trello:
+[https://trello.com/invite/b/68267bff8d17b7cdedc81fc0/ATTI9b222886c42338db28af15f683f5af1554589F3D/si729-20251-4328-grupo-1](https://trello.com/invite/b/68267bff8d17b7cdedc81fc0/ATTI9b222886c42338db28af15f683f5af1554589F3D/si729-20251-4328-grupo-1)
+
 | User Story ID | User Story | Work-Item / Task ID | Work-Item / Task Title | Description | Estimation (Hours) | Status |
 |---------------|------------|---------------------|------------------------|-------------|--------------------|--------|
 | US-44 | Gestionar turnos de cita medica | TS122 | Sección Appointments | Vista de citas medicas para familiares | 3 | Done |
