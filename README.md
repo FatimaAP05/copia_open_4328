@@ -56,7 +56,11 @@
 | TB2     | 20/06/2025  | Jeremy Alexander Quijada Magro        | Realizó mejoras con respecto a la TB2 y creó  y colaboró en el sprint 3. |
 | TB2     | 20/06/2025  | Franco Gabriel Huang Liu               | Realizó mejoras con respecto a la TB2 y creó  y colaboró en el sprint 3. |
 | TB2     | 20/06/2025  | Mauricio Rigoberto Muñoz Vilcapoma   | Realizó mejoras con respecto a la TB2 y creó y colaboró en el sprint 3. |
-
+| TF      | 11/07/2025  | Ramiro Alexander Guzmán Chávez        | Realizó mejoras generales en todo el informe y aportó para el desarrollo del sprint 4. |
+| TF      | 11/07/2025  | Fátima Andrea Asmad Padilla           | Realizó mejoras generales en todo el informe y aportó para el desarrollo del sprint 4. |
+| TF      | 11/07/2025  | Jeremy Alexander Quijada Magro        | Realizó mejoras generales en todo el informe y aportó para el desarrollo del sprint 4. |
+| TF      | 11/07/2025  | Franco Gabriel Huang Liu              | Realizó mejoras generales en todo el informe y aportó para el desarrollo del sprint 4. |
+| TF      | 11/07/2025  | Mauricio Rigoberto Muñoz Vilcapoma    | Realizó mejoras generales en todo el informe y aportó para el desarrollo del sprint 4. |
 
 ---
 
