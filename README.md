@@ -2989,6 +2989,17 @@ Web Applications (Frontend) — upc-pre-202510-1asi0729-4328-Lively/Frontend-Age
 
 
 
+LANDING
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+|------------|--------|-----------|----------------|----------------------|---------------------|
+| https://github.com/upc-pre-202510-1asi0729-4328-Lively/landing-page | main | 435f283, 8021300 | feat: Add development team members and links of videos | feat: Add development team members and links of videos | 25/06/2025 |
+| https://github.com/upc-pre-202510-1asi0729-4328-Lively/landing-page | main | 7cec419, 435f283 | fix: WHAT DOES AGACARE OFFER? | fix: WHAT DOES AGACARE OFFER? | 21/06/2025 |
+| https://github.com/upc-pre-202510-1asi0729-4328-Lively/landing-page | main | ccae42e, 7cec419 | Merge pull request #9 | Merge pull request #9 from seccion/Guía-de-la-Aplicación | 01/06/2025 |
+| https://github.com/upc-pre-202510-1asi0729-4328-Lively/landing-page | seccion/Guía-de-la-Aplicación | 406efcb, 987d18f | fix: navbar how it works? | fix: navbar how it works? | 01/06/2025 |
+| https://github.com/upc-pre-202510-1asi0729-4328-Lively/landing-page | revert-8-seccion/Guía-de-la-Aplicación | Deleted branch | Deleted branch | Deleted branch | 01/06/2025 |
+
+
 ##### 5.2.4.5. Execution Evidence for Sprint Review
 En este item se presentan las evidencias de la ejecución de las tareas y user stories del Sprint 4, incluyendo el desarrollo de la Landing Page FrontEnd y BackEnd.
 
