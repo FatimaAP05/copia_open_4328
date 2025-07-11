@@ -109,6 +109,19 @@ A continuación, se presentan los avances y reportes obtenidos durante este proc
 <p align="center">
 <img src="./assets/TB2REPORTE2.png" alt="TB2REPORTE2" />
 
+
+## TF
+
+Para el desarrollo del Trabajo Final, el equipo consolidó y perfeccionó todas las entregas anteriores, enfocándose en la mejora integral del informe y en la finalización de los requerimientos del sprint 4. Se mantuvo una estructura de trabajo colaborativa, con ramas individuales asignadas a cada integrante, lo que permitió abordar distintas secciones del proyecto en paralelo.
+
+Cada miembro del equipo realizó aportes significativos en la revisión, corrección y mejora de contenidos previos, además de desarrollar nuevas funcionalidades y documentación necesaria para cerrar el ciclo del proyecto. Posteriormente, todas las ramas fueron integradas a la rama develop, asegurando la coherencia y consistencia del producto final.
+
+El trabajo en equipo, la comunicación continua y el uso de buenas prácticas en control de versiones fueron claves para cumplir con los objetivos del sprint final y entregar un trabajo robusto y alineado a los lineamientos del curso.
+
+<img width="1020" height="830" alt="image" src="https://github.com/user-attachments/assets/e3d21edb-4c8f-458d-bcce-580f5d60b87f" />
+<img width="1015" height="935" alt="image" src="https://github.com/user-attachments/assets/5ded1290-2a6d-433b-a5e4-f06b01ee5bc6" />
+<img width="638" height="257" alt="image" src="https://github.com/user-attachments/assets/4f4c6c95-4743-49cb-89fa-16fc0023c059" />
+
   
 ---
 ## Contenido
